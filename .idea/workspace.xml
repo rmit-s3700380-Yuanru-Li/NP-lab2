@@ -20,19 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2ffde0b-4efb-4310-98f1-c0ffae4b3d48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NP-lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/FileClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/FileClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/fileToDownload.txt_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/nidaye.txt_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/FileClientHanlder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/FileServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/FileServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/fileToDownload.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/nidaye.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download_by_62240_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NP-lab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NP-lab2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NP-lab2/FileClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NP-lab2/FileServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NP-lab2/client/fileToDownload.txt_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NP-lab2/client/nidaye.txt_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NP-lab2/server/fileToDownload.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NP-lab2/server/nidaye.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/FileClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/FileClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/fileToDownload.txt_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/nidaye.txt_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/FileClientHanlder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/FileServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/FileServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/fileToDownload.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/nidaye.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +68,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -70,13 +83,28 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/server" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileClient">
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.Client" />
+      <module name="NP-lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client.FileClient" />
       <module name="NP-lab2" />
@@ -103,8 +131,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Server" />
+      <module name="NP-lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NP-lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.FileClient" />
+      <item itemvalue="Application.FileServer" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="JUnit.test.test1" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="JUnit.test.test1" />
         <item itemvalue="Application.FileClient" />
         <item itemvalue="Application.FileServer" />
       </list>
@@ -120,7 +187,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585622504021</updated>
-      <workItem from="1585622506772" duration="3800000" />
+      <workItem from="1585622506772" duration="4375000" />
+      <workItem from="1585804422764" duration="12827000" />
+      <workItem from="1585975673880" duration="4017000" />
     </task>
     <servers />
   </component>
@@ -137,38 +206,105 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="518" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1585624450556">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="210" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585976119894">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
+    <state x="210" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.823@0.23.1440.823" timestamp="1585809837391" />
+    <state x="210" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.824@0.23.1440.824" timestamp="1585976119894" />
+    <state x="518" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1585811471388">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="518" y="130" key="#com.intellij.ide.util.MemberChooser/0.23.1440.823@0.23.1440.823" timestamp="1585811471388" />
     <state x="518" y="131" key="#com.intellij.ide.util.MemberChooser/0.23.1440.828@0.23.1440.828" timestamp="1585624450556" />
-    <state width="1358" height="248" key="GridCell.Tab.0.bottom" timestamp="1585624063888">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1358" height="231" key="GridCell.Tab.0.bottom" timestamp="1585979416288">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state width="1358" height="231" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1585886334220" />
+    <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1585808064340" />
+    <state width="1358" height="231" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585979416288" />
+    <state width="1358" height="231" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1585976438741" />
     <state width="1358" height="200" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1585623299367" />
     <state width="1358" height="248" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1585624063888" />
-    <state width="1358" height="248" key="GridCell.Tab.0.center" timestamp="1585624063887">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1358" height="248" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1585626926855" />
+    <state width="1358" height="231" key="GridCell.Tab.0.center" timestamp="1585979416286">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state width="1358" height="231" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1585886334219" />
+    <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1585808064338" />
+    <state width="1358" height="231" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585979416286" />
+    <state width="1358" height="231" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1585976438740" />
     <state width="1358" height="200" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1585623299366" />
     <state width="1358" height="248" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1585624063886" />
-    <state width="1358" height="248" key="GridCell.Tab.0.left" timestamp="1585624063885">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1358" height="248" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1585626926854" />
+    <state width="1358" height="231" key="GridCell.Tab.0.left" timestamp="1585979416285">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state width="1358" height="231" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1585886334219" />
+    <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1585808064336" />
+    <state width="1358" height="231" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585979416285" />
+    <state width="1358" height="231" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1585976438739" />
     <state width="1358" height="200" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1585623299365" />
     <state width="1358" height="248" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1585624063885" />
-    <state width="1358" height="248" key="GridCell.Tab.0.right" timestamp="1585624063887">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1358" height="248" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1585626926853" />
+    <state width="1358" height="231" key="GridCell.Tab.0.right" timestamp="1585979416287">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
+    <state width="1358" height="231" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1585886334219" />
+    <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1585808064339" />
+    <state width="1358" height="231" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585979416287" />
+    <state width="1358" height="231" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1585976438740" />
     <state width="1358" height="200" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1585623299367" />
     <state width="1358" height="248" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1585624063887" />
-    <state x="370" y="189" key="run.anything.popup" timestamp="1585624051470">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state width="1358" height="248" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1585626926854" />
+    <state width="1358" height="248" key="GridCell.Tab.1.bottom" timestamp="1585886329329">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
+    <state width="1358" height="248" key="GridCell.Tab.1.bottom/0.23.1440.813@0.23.1440.813" timestamp="1585886329329" />
+    <state width="1358" height="248" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585807800914" />
+    <state width="1358" height="248" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1585626926858" />
+    <state width="1358" height="248" key="GridCell.Tab.1.center" timestamp="1585886329328">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.1.center/0.23.1440.813@0.23.1440.813" timestamp="1585886329328" />
+    <state width="1358" height="248" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1585807800913" />
+    <state width="1358" height="248" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1585626926856" />
+    <state width="1358" height="248" key="GridCell.Tab.1.left" timestamp="1585886329328">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.1.left/0.23.1440.813@0.23.1440.813" timestamp="1585886329328" />
+    <state width="1358" height="248" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1585807800912" />
+    <state width="1358" height="248" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1585626926856" />
+    <state width="1358" height="248" key="GridCell.Tab.1.right" timestamp="1585886329329">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1358" height="248" key="GridCell.Tab.1.right/0.23.1440.813@0.23.1440.813" timestamp="1585886329329" />
+    <state width="1358" height="248" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1585807800914" />
+    <state width="1358" height="248" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1585626926857" />
+    <state x="147" y="72" key="SettingsEditor" timestamp="1585979689960">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="147" y="72" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1585979689960" />
+    <state x="350" y="461" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585811084402">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="350" y="461" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.823@0.23.1440.823" timestamp="1585811084402" />
+    <state x="370" y="188" key="run.anything.popup" timestamp="1585978914140">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="370" y="188" key="run.anything.popup/0.23.1440.823@0.23.1440.823" timestamp="1585978914140" />
+    <state x="370" y="188" key="run.anything.popup/0.23.1440.824@0.23.1440.824" timestamp="1585814232452" />
     <state x="370" y="189" key="run.anything.popup/0.23.1440.828@0.23.1440.828" timestamp="1585624051470" />
+    <state x="458" y="175" width="670" height="676" key="search.everywhere.popup" timestamp="1585977330007">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="458" y="175" width="670" height="676" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1585977330007" />
+    <state x="458" y="175" width="670" height="677" key="search.everywhere.popup/0.23.1440.824@0.23.1440.824" timestamp="1585814355365" />
+    <state x="458" y="176" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1585626844008" />
   </component>
 </project>

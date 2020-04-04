@@ -1,3 +1,0 @@
-This is a test file.
-
-Date 2020-04-02

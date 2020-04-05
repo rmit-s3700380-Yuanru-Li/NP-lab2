@@ -8,12 +8,13 @@ public class Server {
     /**
      * Run on 10.102.128.22 (netprog1.csit.rmit.edu.au)
      */
+    int PORT = 61177;
     private ServerSocket serverSocket;
 
     public Server() {
         try {
             init();
-            System.out.println("Server is running.");
+            System.out.println("Server is running at["+PORT+"].");
         } catch (IOException e) {
             System.out.println("PORT may have been used.");
             return;
@@ -22,7 +23,7 @@ public class Server {
     }
 
     private void init() throws IOException {
-        int PORT = 61177;
+        
         serverSocket = new ServerSocket(PORT);
     }
 
